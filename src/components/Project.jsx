@@ -1,8 +1,5 @@
-import { FaReact, FaBootstrap, FaNodeJs, } from "react-icons/fa";
-import { SiReactrouter } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-
+import { FaReact, FaBootstrap, FaNodeJs } from "react-icons/fa";
+import { SiReactrouter, SiExpress, SiMongodb } from "react-icons/si";
 
 export default function Project() {
   const projects = [
@@ -21,37 +18,37 @@ export default function Project() {
   ];
 
   return (
-    <section id="project" className="w-full bg-gray-900 py-30">
-      <div className="container mx-auto px-6 md:px-16">
-        <h2 className="text-5xl font-semibold text-center text-white mb-12">
+    <section id="project" className="w-full bg-gray-900 py-16">
+      <div className="container mx-auto px-4 sm:px-6 md:px-16">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mb-10">
           Projects
         </h2>
 
-        <div className="flex flex-wrap justify-center gap-10">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-8">
           {projects.map((proj, index) => (
             <div
               key={index}
-              className="w-[350px] bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
+              className="w-full sm:w-[350px] bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
             >
               <a href={proj.link} target="_blank" rel="noopener noreferrer">
                 <img
                   src={proj.img}
                   alt={proj.name}
-                  className="w-full h-56 object-cover"
+                  className="w-full h-48 sm:h-56 object-cover"
                 />
               </a>
               <div className="p-4">
                 <h3 className="text-lg font-semibold text-purple-500">
                   {proj.name}
                 </h3>
-                <p className="text-md font-medium text-white my-7">{proj.description}</p>
-                <div className="flex gap-5 text-purple-500 text-xl">
-                    <p><FaReact /></p>
-                    <p><FaBootstrap /></p>
-                    <p><FaNodeJs /></p>
-                    <p><SiReactrouter /></p>
-                    <p><SiMongodb /></p>
-                    <p><SiExpress /></p>
+                <p className="text-sm sm:text-md font-medium text-white my-4">{proj.description}</p>
+                <div className="flex flex-wrap gap-3 text-purple-500 text-xl">
+                  <FaReact />
+                  <FaBootstrap />
+                  <FaNodeJs />
+                  <SiReactrouter />
+                  <SiMongodb />
+                  <SiExpress />
                 </div>
               </div>
             </div>
