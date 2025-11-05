@@ -45,7 +45,7 @@ export default function Hero() {
         {/* Right image */}
         <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
           <img 
-            src="/Screenshot 2025-11-04 131239.png"
+            src="public/heroImg.png"
             alt="Developer Illustration" 
             className="w-3/4 sm:w-2/3 md:w-full max-w-sm md:max-w-md object-contain" 
           />
