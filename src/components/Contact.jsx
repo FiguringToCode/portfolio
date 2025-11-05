@@ -24,8 +24,8 @@ export default function Contact() {
           >
             <FaGithub /> GitHub
           </a>
-          <p className="text-purple-400 text-xl sm:text-2xl my-4">
-            Follow on GitHub
+          <p className="text-purple-400 text-xl sm:text-2xl mt-8">
+            Connect on GitHub
           </p>
         </div>
 
@@ -39,22 +39,19 @@ export default function Contact() {
           >
             <FaLinkedin /> LinkedIn
           </a>
-          <p className="text-purple-400 text-xl sm:text-2xl my-4">
-            Follow on LinkedIn
+          <p className="text-purple-400 text-xl sm:text-2xl mt-8">
+            Connect on LinkedIn
           </p>
         </div>
 
         {/* Gmail */}
         <div className="w-full sm:w-[350px] p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 text-center cursor-pointer">
-          <a
-            href="mailto:youremail@gmail.com"
-            className="text-gray-300 text-4xl sm:text-5xl flex items-center justify-center gap-4 hover:text-gray-100"
-          >
-            <SiGmail /> Gmail
+          <a href="mailto:marineryash2000@gmail.com" className="text-gray-300 text-4xl sm:text-5xl hover:text-gray-100">
+            <p className="flex justify-center gap-5"><SiGmail /> Gmail</p>
+            <p className="text-purple-400 text-xl sm:text-xl my-4">
+                Send a Mail to marineryash2000@gmail.com
+            </p>
           </a>
-          <p className="text-purple-400 text-xl sm:text-2xl my-4">
-            Send a Mail
-          </p>
         </div>
       </div>
     </section>

@@ -18,43 +18,59 @@ export default function Project() {
   ];
 
   return (
-    <section id="project" className="w-full bg-gray-900 py-16">
+    <section id="project" className="w-full bg-gray-900 py-2">
       <div className="container mx-auto px-4 sm:px-6 md:px-16">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mb-10">
           Projects
         </h2>
 
-        <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-8">
+        <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-8 mb-40">
           {projects.map((proj, index) => (
             <div
               key={index}
-              className="w-full sm:w-[350px] bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105"
-            >
+              className="w-full sm:w-[350px] bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
               <a href={proj.link} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={proj.img}
-                  alt={proj.name}
-                  className="w-full h-48 sm:h-56 object-cover"
-                />
-              </a>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold text-purple-500">
-                  {proj.name}
-                </h3>
-                <p className="text-sm sm:text-md font-medium text-white my-4">{proj.description}</p>
-                <div className="flex flex-wrap gap-3 text-purple-500 text-xl">
-                  <FaReact />
-                  <FaBootstrap />
-                  <FaNodeJs />
-                  <SiReactrouter />
-                  <SiMongodb />
-                  <SiExpress />
+                <img src={proj.img} alt={proj.name} className="w-full h-48 sm:h-56 object-cover"/>
+                <div className="p-4">
+                    <h3 className="text-lg font-semibold text-purple-500">
+                    {proj.name}
+                    </h3>
+                    <p className="text-sm sm:text-md font-medium text-white my-4">{proj.description}</p>
+                    <div className="flex flex-wrap gap-3 text-purple-500 text-xl">
+                    <FaReact />
+                    <FaBootstrap />
+                    <FaNodeJs />
+                    <SiReactrouter />
+                    <SiMongodb />
+                    <SiExpress />
+                    </div>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
+        </div>
+
+
+        <div className="overflow-hidden relative w-full">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mb-10">
+            Tech Stack
+            </h2>
+            <div className="flex animate-scroll space-x-6 w-max">
+            <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
+            <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
+            <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+            <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+            <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+            {/* Duplicate for continuous loop */}
+            <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
+            <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
+            <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+            <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+            <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+            </div>
         </div>
       </div>
     </section>
   );
 }
+    
