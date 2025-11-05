@@ -5,13 +5,13 @@ export default function Project() {
   const projects = [
     {
       name: "Zeptronics E-commerce App",
-      img: "public/Screenshot 2025-11-04 134733.png",
+      img: "public\e-commImg.png",
       link: "https://fe-mp-1.vercel.app/",
       description: "A full-stack e-commerce app where you can browse, add, buy different electronic gadgets and appliances. Built with React frontend, Express/Node backend and MongoDB Database"
     },
     {
       name: "Anvaya CRM App",
-      img: "public/Generated Image November 04, 2025 - 1_55PM.png",
+      img: "public\crmImg.png",
       link: "https://fe-mp-2.vercel.app/",
       description: "A full-stack CRM app where you can manage, add, edit information about leads and sales agents. Built with React frontend, Express/Node backend and MongoDB Database"
     },
