@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { FaCode, FaBars, FaTimes } from 'react-icons/fa'
 import '@fontsource/poppins/600.css'
-import { NavLink } from 'react-router-dom'
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -19,9 +18,9 @@ const Header = () => {
         {/* Desktop Menu */}
         <nav className="hidden md:flex">
           <ul className="flex space-x-8 font-semibold">
-            <li><NavLink to="/" className="hover:text-purple-400 transition">Home</NavLink></li>
-            <li><NavLink to="/project" className="hover:text-purple-400 transition">Projects</NavLink></li>
-            <li><NavLink to="/contact" className="hover:text-purple-400 transition">Contact</NavLink></li>
+            <li><a href="#home" className="hover:text-purple-400 transition">Home</a></li>
+            <li><a href="#project" className="hover:text-purple-400 transition">Projects</a></li>
+            <li><a href="#contact" className="hover:text-purple-400 transition">Contact</a></li>
           </ul>
         </nav>
 
@@ -37,9 +36,9 @@ const Header = () => {
       {menuOpen && (
         <div className="md:hidden bg-gray-800">
           <ul className="flex flex-col items-center space-y-4 py-6 font-semibold">
-            <li><NavLink to="/" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Home</NavLink></li>
-            <li><NavLink to="/project" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Projects</NavLink></li>
-            <li><NavLink to="/contact" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Contact</NavLink></li>
+            <li><a href="#home" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Home</a></li>
+            <li><a href="#project" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Projects</a></li>
+            <li><a href="#contact" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 transition">Contact</a></li>
           </ul>
         </div>
       )}

@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function Hero() {
   return (
@@ -25,12 +24,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
-            <Link 
-              to="/contact" 
+            <a 
+              href="#contact" 
               className="px-6 py-2 bg-purple-500 rounded text-white hover:bg-purple-700 transition"
             >
               Contact Me
-            </Link>
+            </a>
             <a 
               href="/yash_jumde_Resume.pdf" 
               target="_blank" 
