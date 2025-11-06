@@ -76,7 +76,7 @@ button:focus-visible {
   }
 
   .animate-scroll {
-    animation: scroll 0.5s linear infinite;
+    animation: scroll 8s linear infinite;
   }
 
   @media (max-width: 768px) {
