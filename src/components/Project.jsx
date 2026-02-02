@@ -15,6 +15,18 @@ export default function Project() {
       link: "https://fe-mp-2.vercel.app/",
       description: "A full-stack CRM app where you can manage, add, edit information about leads and sales agents. Built with React frontend, Express/Node backend and MongoDB Database"
     },
+    {
+      name: "Workasana Task Management and Team Collaboration App",
+      img: "/person-using-ai-tool-job-800x500.jpg",
+      link: "https://frontend-workasana-eta.vercel.app/",
+      description: "A full stack Task Management app where you can add, edit and delete tasks/projects along sign-up and login feature. Built with MERN stack."
+    },
+    {
+      name: 'Chat Application',
+      img: "/in-app-chat-blog-cover-image.png",
+      link: "https://chat-app-frontend-six-lac.vercel.app/",
+      description: "A real-time chat application where users can send messages in real-time. Bulit with MERN stack along with websockets."
+    }
   ];
 
   return (
