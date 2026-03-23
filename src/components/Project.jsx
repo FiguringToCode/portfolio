@@ -26,6 +26,12 @@ export default function Project() {
       img: "/in-app-chat-blog-cover-image.png",
       link: "https://chat-app-frontend-six-lac.vercel.app/",
       description: "A real-time chat application where users can send messages in real-time. Bulit with MERN stack along with websockets."
+    },
+    {
+      name: 'Kavios Pix Image Management App',
+      img: "/kavios-pixs-img.webp",
+      link: "https://kavios-pix-client.vercel.app/",
+      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata. "
     }
   ];
 
