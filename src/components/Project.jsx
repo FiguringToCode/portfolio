@@ -31,7 +31,13 @@ export default function Project() {
       name: 'Kavios Pix Image Management App',
       img: "/kavios-pixs-img.webp",
       link: "https://kavios-pix-client.vercel.app/",
-      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata. "
+      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata."
+    },
+    {
+      name: 'AI Doctor Consultant App',
+      img: "/ai-doctor-img.png",
+      link: "https://ai-doctor-client.vercel.app/",
+      description: "AI Doctor Consultant is a full-stack AI-powered symptom checker that lets users describe their symptoms, age, and gender, then receive a structured preliminary health assessment via a language model."
     }
   ];
 
