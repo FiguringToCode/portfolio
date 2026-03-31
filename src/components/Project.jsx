@@ -4,6 +4,18 @@ import { SiReactrouter, SiExpress, SiMongodb } from "react-icons/si";
 export default function Project() {
   const projects = [
     {
+      name: 'AI Doctor Consultant App',
+      img: "/ai-doctor-img.png",
+      link: "https://ai-doctor-client.vercel.app/",
+      description: "AI Doctor Consultant is a full-stack AI-powered symptom checker that lets users describe their symptoms, age, and gender, then receive a structured preliminary health assessment via a language model."
+    },
+    {
+      name: 'Kavios Pix Image Management App',
+      img: "/kavios-pixs-img.webp",
+      link: "https://kavios-pix-client.vercel.app/",
+      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata."
+    },
+    {
       name: "Zeptronics E-commerce App",
       img: "/e-commImg.png",
       link: "https://fe-mp-1.vercel.app/",
@@ -27,18 +39,6 @@ export default function Project() {
       link: "https://chat-app-frontend-six-lac.vercel.app/",
       description: "A real-time chat application where users can send messages in real-time. Bulit with MERN stack along with websockets."
     },
-    {
-      name: 'Kavios Pix Image Management App',
-      img: "/kavios-pixs-img.webp",
-      link: "https://kavios-pix-client.vercel.app/",
-      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata."
-    },
-    {
-      name: 'AI Doctor Consultant App',
-      img: "/ai-doctor-img.png",
-      link: "https://ai-doctor-client.vercel.app/",
-      description: "AI Doctor Consultant is a full-stack AI-powered symptom checker that lets users describe their symptoms, age, and gender, then receive a structured preliminary health assessment via a language model."
-    }
   ];
 
   return (
