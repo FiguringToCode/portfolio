@@ -31,7 +31,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a 
-              href="/Resume_03.pdf" 
+              href="/Resume_04.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-2 bg-purple-500 rounded text-white hover:bg-purple-700 transition"
