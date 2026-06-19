@@ -42,7 +42,7 @@ export default function Hero() {
         </div>
 
         {/* Right image */}
-        <div className="w-full md:w-1/2 flex justify-center mb-10 md:mb-0">
+        <div className="w-full mt-10 md:w-1/2 flex justify-center mb-5 md:mb-0">
           <img 
             src="/heroImg.png"
             alt="Developer Illustration" 

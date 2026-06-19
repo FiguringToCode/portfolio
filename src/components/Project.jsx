@@ -7,44 +7,62 @@ export default function Project() {
       name: 'AI Doctor Consultant App',
       img: "/ai-doctor-img.png",
       link: "https://ai-doctor-client.vercel.app/",
-      description: "AI Doctor Consultant is a full-stack AI-powered symptom checker that lets users describe their symptoms, age, and gender, then receive a structured preliminary health assessment via a language model."
+      description: "AI Doctor Consultant is a full-stack AI-powered symptom checker that lets users describe their symptoms, age, and gender, then receive a structured preliminary health assessment via a language model.",
+      githubRepoFE: "https://github.com/FiguringToCode/ai_doctor_client.git",
+      githubRepoBE: "https://github.com/FiguringToCode/ai_doctor_server.git",
+      demoLink: "https://drive.google.com/file/d/10J4Xx4ngq3XPnAqHvtwYTf-Ke7ZzWxHm/view?usp=sharing"
     },
     {
       name: 'Kavios Pix Image Management App',
       img: "/kavios-pixs-img.webp",
       link: "https://kavios-pix-client.vercel.app/",
-      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata."
+      description: "An API-based image management system similar to Google Photos with authentication through Google Auth. Users can create albums, share them with others via email, and upload images with various metadata.",
+      githubRepoFE: "https://github.com/FiguringToCode/KaviosPix-client",
+      githubRepoBE: "https://github.com/FiguringToCode/KaviosPix-server",
+      demoLink: "https://drive.google.com/file/d/10J4Xx4ngq3XPnAqHvtwYTf-Ke7ZzWxHm/view?usp=sharing"
     },
     {
       name: "Zeptronics E-commerce App",
       img: "/e-commImg.png",
       link: "https://fe-mp-1.vercel.app/",
-      description: "A full-stack e-commerce app where you can browse, add, buy different electronic gadgets and appliances. Built with React frontend, Express/Node backend and MongoDB Database"
+      description: "A full-stack e-commerce app where you can browse, add, buy different electronic gadgets and appliances. Built with React frontend, Express/Node backend and MongoDB Database",
+      githubRepoFE: "https://github.com/FiguringToCode/FE-MP1.git",
+      githubRepoBE: "https://github.com/FiguringToCode/BE-MP1.git",
+      demoLink: "https://www.loom.com/share/3b01efccd3734b15aa9c1520b8244cce"
     },
     {
       name: "Anvaya CRM App",
       img: "/crmImg.png",
       link: "https://fe-mp-2.vercel.app/",
-      description: "A full-stack CRM app where you can manage, add, edit information about leads and sales agents. Built with React frontend, Express/Node backend and MongoDB Database"
+      description: "A full-stack CRM app where you can manage, add, edit information about leads and sales agents. Built with React frontend, Express/Node backend and MongoDB Database",
+      githubRepoFE: "https://github.com/FiguringToCode/FE-MP2",
+      githubRepoBE: "https://github.com/FiguringToCode/BE-MP2",
+      demoLink: "https://www.loom.com/share/88a62a7898044a52bf592469595f8cf1"
     },
     {
       name: "Workasana Task Management and Team Collaboration App",
       img: "/person-using-ai-tool-job-800x500.jpg",
       link: "https://frontend-workasana-eta.vercel.app/",
-      description: "A full stack Task Management app where you can add, edit and delete tasks/projects along sign-up and login feature. Built with MERN stack."
+      description: "A full stack Task Management app where you can add, edit and delete tasks/projects along sign-up and login feature. Built with MERN stack.",
+      githubRepoFE: "https://github.com/FiguringToCode/frontend-workasana.git",
+      githubRepoBE: "https://github.com/FiguringToCode/backend-workasana.git",
+      demoLink: "https://www.loom.com/share/c189fc7cefa1486aa4f2a6a5100202a2"
     },
     {
       name: 'Chat Application',
       img: "/in-app-chat-blog-cover-image.png",
       link: "https://chat-app-frontend-six-lac.vercel.app/",
-      description: "A real-time chat application where users can send messages in real-time. Bulit with MERN stack along with websockets."
+      description: "A real-time chat application where users can send messages in real-time. Bulit with MERN stack along with websockets.",
+      githubRepoFE: "https://github.com/FiguringToCode/chat-app-frontend.git",
+      githubRepoBE: "https://github.com/FiguringToCode/chat-app-backend.git",
+      demoLink: "https://www.loom.com/share/e499a0d2e1ce49098251d813b26222b1",
     },
   ];
 
   return (
     <section id="project" className="w-full bg-gray-900 py-2">
       <div className="container mx-auto px-4 sm:px-6 md:px-16">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mb-10">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mt-4 mb-10">
           Projects
         </h2>
 
@@ -53,23 +71,31 @@ export default function Project() {
             <div
               key={index}
               className="w-full sm:w-[350px] bg-gray-800 rounded-lg overflow-hidden shadow-lg transform transition-transform duration-300 hover:scale-105">
-              <a href={proj.link} target="_blank" rel="noopener noreferrer">
                 <img src={proj.img} alt={proj.name} className="w-full h-48 sm:h-56 object-cover"/>
                 <div className="p-4">
-                    <h3 className="text-lg font-semibold text-purple-500">
+                  
+                  <a href={proj.link} target="_blank" rel="noopener noreferrer">
+                    <h3 className="text-lg font-semibold text-purple-500 hover:text-violet-300">
                     {proj.name}
                     </h3>
-                    <p className="text-sm sm:text-md font-medium text-white my-4">{proj.description}</p>
-                    <div className="flex flex-wrap gap-3 text-purple-500 text-xl">
-                    <FaReact />
-                    <FaBootstrap />
-                    <FaNodeJs />
-                    <SiReactrouter />
-                    <SiMongodb />
-                    <SiExpress />
-                    </div>
+                  </a>    
+                  
+                  <p className="text-sm sm:text-md font-medium text-white my-4">{proj.description}</p>
+                  
+                  <a href={proj.githubRepoFE} target="_blank" className="text-sm text-purple-500 hover:text-violet-300">Project Client Link</a><br />
+                  <a href={proj.githubRepoBE} target="_blank" className="text-sm text-purple-500 hover:text-violet-300">Project Server Link</a><br />
+                  <a href={proj.demoLink} target="_blank" className="text-sm text-purple-500 hover:text-violet-300">Project Demo Link</a>
+                  
+                  <div className="flex flex-wrap gap-3 text-purple-500 text-xl mt-5">
+                  <FaReact />
+                  <FaBootstrap />
+                  <FaNodeJs />
+                  <SiReactrouter />
+                  <SiMongodb />
+                  <SiExpress />
+                  </div>
+                
                 </div>
-              </a>
             </div>
           ))}
         </div>
