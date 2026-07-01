@@ -109,7 +109,7 @@ export default function Project() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mb-10">
             Tech Stack
             </h2>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-center text-white mt-15 mb-5">
             Languages
             </h2>
             <div className="flex animate-scroll space-x-6 w-max">
@@ -126,7 +126,7 @@ export default function Project() {
               <img src="/10b88c68-typescript-logo.png" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
               <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="reactLogo" className="h-32 w-auto object-contain" />
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-center text-white mt-15 mb-5">
             Frontend
             </h2>
             <div className="flex animate-scroll space-x-6 w-max">
@@ -146,7 +146,7 @@ export default function Project() {
               <img src="/tailwind.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
               <img src="/React-Router.jpg.webp" alt="express_Logo" className="h-32 w-auto object-contain" />
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-center text-white mt-15 mb-5">
             Backend
             </h2>
             <div className="flex animate-scroll space-x-6 w-max">
@@ -166,7 +166,7 @@ export default function Project() {
               <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="express_Logo" className="h-32 w-auto object-contain" />
               <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-center text-white mt-15 mb-5">
             Additional Tools
             </h2>
             <div className="flex animate-scroll space-x-6 w-max">
