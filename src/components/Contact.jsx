@@ -45,10 +45,10 @@ export default function Contact() {
         </div>
 
         {/* Gmail */}
-        <div className="w-full sm:w-[350px] p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 text-center cursor-pointer">
+        <div className="w-full sm:w-[350px] p-8 bg-gray-800 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 text-center cursor-pointer px-3">
           <a href="mailto:marineryash2000@gmail.com" className="text-gray-300 text-4xl sm:text-5xl hover:text-gray-100">
             <p className="flex justify-center gap-5"><SiGmail /> Gmail</p>
-            <p className="text-purple-400 text-xl sm:text-xl my-4">
+            <p className="text-purple-400 text-xl sm:text-xl mt-4 mx-3">
                 Send a Mail to marineryash2000@gmail.com
             </p>
           </a>

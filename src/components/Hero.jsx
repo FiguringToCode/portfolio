@@ -3,7 +3,7 @@ import React from 'react'
 export default function Hero() {
   return (
     <section id="home" className="bg-white dark:bg-gray-900 min-h-screen flex items-center justify-center">
-      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-6 md:ps-40 py-12">
+      <div className="container mx-auto flex flex-col-reverse md:flex-row items-center justify-between lg:ps-40 px-6 py-12">
         
         {/* Left content (text + buttons) */}
         <div className="text-center md:text-left w-full md:w-1/2 mt-10 md:mt-0">
@@ -31,7 +31,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a 
-              href="/Resume_04.pdf" 
+              href="/Resume_Yash_Jumde.pdf" 
               target="_blank" 
               rel="noopener noreferrer"
               className="px-6 py-2 bg-purple-500 rounded text-white hover:bg-purple-700 transition"

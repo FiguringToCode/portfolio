@@ -1,5 +1,7 @@
 import { FaReact, FaBootstrap, FaNodeJs } from "react-icons/fa";
 import { SiReactrouter, SiExpress, SiMongodb } from "react-icons/si";
+import { BiLogoGit } from "react-icons/bi";
+import { ImGithub } from "react-icons/im";
 
 export default function Project() {
   const projects = [
@@ -82,11 +84,13 @@ export default function Project() {
                   
                   <p className="text-sm sm:text-md font-medium text-white my-4">{proj.description}</p>
                   
-                  <a href={proj.githubRepoFE} target="_blank" className="text-sm text-purple-500 hover:text-violet-300">Project Client Link</a><br />
-                  <a href={proj.githubRepoBE} target="_blank" className="text-sm text-purple-500 hover:text-violet-300">Project Server Link</a><br />
-                  <a href={proj.demoLink} target="_blank" className="text-sm text-purple-500 hover:text-violet-300">Project Demo Link</a>
+                  <div className="flex gap-3 items-center my-5">
+                    <a href={proj.githubRepoFE} target="_blank" className=" text-purple-500 hover:text-violet-300 m-0"><ImGithub size={20} /></a><br />
+                    <a href={proj.githubRepoBE} target="_blank" className=" text-purple-500 hover:text-violet-300"><BiLogoGit size={20} /></a><br />
+                    <a href={proj.demoLink} target="_blank" className="text-lg text-purple-500 hover:text-violet-300">Code / Live</a>
+                  </div>
                   
-                  <div className="flex flex-wrap gap-3 text-purple-500 text-xl mt-5">
+                  <div className="flex flex-wrap gap-3 text-purple-500 text-md mt-5">
                   <FaReact />
                   <FaBootstrap />
                   <FaNodeJs />
@@ -106,17 +110,21 @@ export default function Project() {
             Tech Stack
             </h2>
             <div className="flex animate-scroll space-x-6 w-max">
-            <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
-            <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
-            <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
-            <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
-            <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
-            {/* Duplicate for continuous loop */}
-            <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
-            <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
-            <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
-            <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
-            <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/10b88c68-typescript-logo.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              {/* Duplicate for continuous loop */}
+              <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/10b88c68-typescript-logo.png" alt="express_Logo" className="h-32 w-auto object-contain" />
             </div>
         </div>
       </div>
