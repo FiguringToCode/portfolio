@@ -109,22 +109,78 @@ export default function Project() {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center text-white mb-10">
             Tech Stack
             </h2>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            Languages
+            </h2>
+            <div className="flex animate-scroll space-x-6 w-max">
+              <img src="/javascript.jpg" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/10b88c68-typescript-logo.png" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/javascript.jpg" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/10b88c68-typescript-logo.png" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/javascript.jpg" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/10b88c68-typescript-logo.png" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/javascript.jpg" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/10b88c68-typescript-logo.png" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            Frontend
+            </h2>
             <div className="flex animate-scroll space-x-6 w-max">
               <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
               <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
-              <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
-              <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
-              <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
-              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="express_Logo" className="h-32 w-auto object-contain" />
-              <img src="/10b88c68-typescript-logo.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/html.jpg" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/what-is-css.png" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/javascript.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/tailwind.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/React-Router.jpg.webp" alt="express_Logo" className="h-32 w-auto object-contain" />
               {/* Duplicate for continuous loop */}
               <img src="/reactjs-benefits.jpg" alt="reactLogo" className="h-32 w-auto object-contain" />
               <img src="/what-is-bootstrap.webp" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/html.jpg" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/what-is-css.png" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/javascript.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/tailwind.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/React-Router.jpg.webp" alt="express_Logo" className="h-32 w-auto object-contain" />
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            Backend
+            </h2>
+            <div className="flex animate-scroll space-x-6 w-max">
+              <img src="/68624ec9dc394e09ab806d0b_rest api image.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/npm.png" alt="bootstrap" className="h-32 w-auto object-contain" />
               <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
               <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
               <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
               <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="express_Logo" className="h-32 w-auto object-contain" />
-              <img src="/10b88c68-typescript-logo.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              {/* Duplicate for continuous loop */}
+              <img src="/68624ec9dc394e09ab806d0b_rest api image.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/npm.png" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/mongodb-atlas-google-cloud-partnership-nosql-databases-integrations-2.jpg" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/expressjs.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/1_3IcLSFuT8PQg4cUBaRXH1A.png" alt="express_Logo" className="h-32 w-auto object-contain" />
+              <img src="/Node_js_Architecture_A_Comprehensive_Guide_1_af37a73e1e.webp" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+            </div>
+            <h2 className="text-2xl sm:text-3xl md:text-4xl px-30 font-semibold text-left text-white mt-10 mb-5">
+            Additional Tools
+            </h2>
+            <div className="flex animate-scroll space-x-6 w-max">
+              <img src="/gitImg.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/githubImg.png" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/apiAI.jpg" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/version_control.png" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/reduxImg.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
+              {/* Duplicate for continuous loop */}
+              <img src="/gitImg.png" alt="reactLogo" className="h-32 w-auto object-contain" />
+              <img src="/githubImg.png" alt="bootstrap" className="h-32 w-auto object-contain" />
+              <img src="/apiAI.jpg" alt="nodeJs_Logo" className="h-32 w-auto object-contain" />
+              <img src="/version_control.png" alt="mongoDB_Logo" className="h-32 w-auto object-contain" />
+              <img src="/reduxImg.jpg" alt="express_Logo" className="h-32 w-auto object-contain" />
             </div>
         </div>
       </div>
